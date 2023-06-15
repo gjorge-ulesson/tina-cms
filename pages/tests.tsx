@@ -7,7 +7,7 @@ export default function TestsPage() {
   return (
     <Layout>
       <Section className="flex-1">
-        <h1>Tests Title</h1>
+        <h1>Tests Title 123</h1>
       </Section>
     </Layout>
   );
