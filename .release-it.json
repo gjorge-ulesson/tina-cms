@@ -3,12 +3,8 @@
     "release": true
   },
   "plugins": {
-    "@release-it/conventional-changelog": {
-      "infile": "CHANGELOG.md",
-      "header": "# Changelog",
-      "preset": {
-        "name": "conventionalcommits"
-      }
+    "@release-it/keep-a-changelog": {
+      "filename": "CHANGELOG.md"
     }
   }
 }

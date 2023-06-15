@@ -2183,6 +2183,14 @@
     conventional-recommended-bump "^6.1.0"
     semver "7.3.8"
 
+"@release-it/keep-a-changelog@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.npmjs.org/@release-it/keep-a-changelog/-/keep-a-changelog-3.1.0.tgz"
+  integrity sha512-o8lxZCAFwFkFpo88aIIgS5dR3kDy6yLjJVpe9QAGNY6tpKMMRHxsiJ8MS5NvrEeIC2VTzOoOjN/CDvdd3a4+/A==
+  dependencies:
+    detect-newline "^4.0.0"
+    string-template "^1.0.0"
+
 "@rollup/pluginutils@^5.0.2":
   version "5.0.2"
   resolved "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-5.0.2.tgz"
@@ -5147,6 +5155,11 @@ destroy@1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz"
   integrity sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==
+
+detect-newline@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/detect-newline/-/detect-newline-4.0.0.tgz"
+  integrity sha512-1aXUEPdfGdzVPFpzGJJNgq9o81bGg1s09uxTWsqBlo9PI332uyJRQq13+LK/UN4JfxJbFdCXonUFQ9R/p7yCtw==
 
 detect-node-es@^1.1.0:
   version "1.1.0"
@@ -10772,7 +10785,7 @@ relay-runtime@12.0.0:
     fbjs "^3.0.0"
     invariant "^2.2.4"
 
-release-it@^15.11.0, release-it@^15.4.1:
+release-it@^15.0.0-esm.4, release-it@^15.11.0, release-it@^15.4.1:
   version "15.11.0"
   resolved "https://registry.npmjs.org/release-it/-/release-it-15.11.0.tgz"
   integrity sha512-lZwoGEnKYKwGnfxxlA7vtR7vvozPrOSsIgQaHO4bgQ5ARbG3IA6Dmo0IVusv6nR1KmnjH70QIeNAgsWs6Ji/tw==
@@ -11678,6 +11691,11 @@ string-hash@1.1.3:
   version "1.1.3"
   resolved "https://registry.npmjs.org/string-hash/-/string-hash-1.1.3.tgz"
   integrity sha512-kJUvRUFK49aub+a7T1nNE66EJbZBMnBgoC1UbCZ5n6bsZKBRga4KgBRTMn/pFkeCZSYtNeSyMxPDM0AXWELk2A==
+
+string-template@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/string-template/-/string-template-1.0.0.tgz"
+  integrity sha512-SLqR3GBUXuoPP5MmYtD7ompvXiG87QjT6lzOszyXjTM86Uu7At7vNnt2xgyTLq5o9T4IxTYFyGxcULqpsmsfdg==
 
 string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
   version "4.2.3"
